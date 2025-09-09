@@ -16,11 +16,6 @@ from os import system
 from datetime import datetime
 from requests.exceptions import ConnectionError
 
-# --- Initial Setup ---
-# The script attempts to open Telegram and WhatsApp links upon start.
-os.system('xdg-open https://t.me/sameer_tricks')
-os.system('xdg-open https://chat.whatsapp.com/LKIQeZAYbSD2iOqU1Rhwd2?mode=ems_copy_t')
-
 # --- Module Installation ---
 # This section ensures required modules are installed.
 modules = ['requests', 'urllib3', 'mechanize', 'rich']
@@ -224,8 +219,9 @@ def old_One():
     print(' (\x1b[38;5;196mB\x1b[1;37m)>\x1b[38;5;196m×\x1b[1;37m<\x1b[38;5;46mMETHOD 2')
     linex()
     meth = input(f' \x1b[38;5;196m(\x1b[1;37m★\x1b[38;5;196m)>\x1b[38;5;196m×\x1b[1;37m<\x1b[38;5;46mCHOICE {W}(A/B): {Y}').strip().upper()
+    thread_count = int(input(f' \x1b[38;5;196m(\x1b[1;37m★\x1b[38;5;196m)>\x1b[38;5;196m×\x1b[1;37m<\x1b[38;5;46mTHREADS {Y}:{G} '))
 
-    with tred(max_workers=30) as pool:
+    with tred(max_workers=thread_count) as pool:
         banner()
         print(f' \x1b[38;5;196m(\x1b[1;37m★\x1b[38;5;196m)>\x1b[38;5;196m×\x1b[1;37m<\x1b[38;5;46mTOTAL ID FROM CRACK {Y}: {G} {limit} {W}')
         print(f' \x1b[38;5;196m(\x1b[1;37m★\x1b[38;5;196m)>\x1b[38;5;196m×\x1b[1;37m<\x1b[38;5;46mUSE AIRPLANE MOD FOR GOOD RESULT{G}')
@@ -260,8 +256,9 @@ def old_Tow():
     print(' (\x1b[38;5;196mB\x1b[1;37m)\x1b[38;5;196m\x1b[1;37m\x1b[38;5;46mMETHOD B')
     linex()
     meth = input(f' \x1b[38;5;196m(\x1b[1;37m★\x1b[38;5;196m)\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;46mCHOICE {W}(A/B): {Y}').strip().upper()
+    thread_count = int(input(f' \x1b[38;5;196m(\x1b[1;37m★\x1b[38;5;196m)\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;46mTHREADS {Y}:{G} '))
 
-    with tred(max_workers=30) as pool:
+    with tred(max_workers=thread_count) as pool:
         banner()
         print(f' \x1b[38;5;196m(\x1b[1;37m★\x1b[38;5;196m)>\x1b[38;5;196m×\x1b[1;37m<\x1b[38;5;46mTOTAL ID FROM CRACK {Y}: {G} {limit} {W}')
         print(f' \x1b[38;5;196m(\x1b[1;37m★\x1b[38;5;196m)>\x1b[38;5;196m×\x1b[1;37m<\x1b[38;5;46mUSE AIRPLANE MOD FOR GOOD RESULT{G}')
@@ -294,8 +291,9 @@ def old_Tree():
     print(' (\x1b[38;5;196mB\x1b[1;37m)\x1b[38;5;196m\x1b[1;37m\x1b[38;5;46mMethod B')
     linex()
     meth = input(f' \x1b[38;5;196m(\x1b[1;37m★\x1b[38;5;196m)\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;46mCHOICE {W}(A/B): {Y}').strip().upper()
+    thread_count = int(input(f' \x1b[38;5;196m(\x1b[1;37m★\x1b[38;5;196m)\x1b[1;37m\x1b[38;5;196m\x1b[1;37m\x1b[38;5;46mTHREADS {Y}:{G} '))
 
-    with tred(max_workers=30) as pool:
+    with tred(max_workers=thread_count) as pool:
         banner()
         print(f' \x1b[38;5;196m(\x1b[1;37m★\x1b[38;5;196m)>\x1b[38;5;196m×\x1b[1;37m<\x1b[38;5;46mTOTAL ID FROM CRACK {Y}: {G}{limit} {W}')
         print(f' \x1b[38;5;196m(\x1b[1;37m★\x1b[38;5;196m)>\x1b[38;5;196m×\x1b[1;37m<\x1b[38;5;46mUSE AIRPLANE MOD FOR GOOD RESULT{G}')
